@@ -1,6 +1,9 @@
 # MLX90614
 A C library for the MLX90614 IR Sensor on Raspberry Pi
 
+# IMPORTANT NOTE!!!
+Make sure you always run applications that use this library as root. The bcm2835 library requires that the application be run as root or it will cause a segmentation fault.
+
 ## Installation
 Simply run the following commands in the root folder and the library will be installed:
 
