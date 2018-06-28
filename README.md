@@ -1,5 +1,5 @@
 # MLX90614
-A C library for the MLX90614 IR Sensor
+A C library for the MLX90614 IR Sensor on Raspberry Pi
 
 ## Installation
 Simply run the following commands in the root folder and the library will be installed:
@@ -29,6 +29,6 @@ With F, C and K denoting Farenheit, Celsius and Kelvin scales respectively.
 
 ## Compiling
 
-Compiling the application is simple. Simply append '-lmlx90614' to the end of your gcc arguments to use the library. Ex:
+Compiling an application with the library is simple. Simply append '-lmlx90614' to the end of your gcc arguments to use the library. Ex:
 
     gcc main.cpp -lmlx90614
